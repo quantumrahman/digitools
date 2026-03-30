@@ -1,7 +1,9 @@
+import Header from "../Header/Header.jsx";
+
 const Layout = () => {
     return (
         <>
-            <h1>layout</h1>
+            <Header></Header>
         </>
     );
 };
