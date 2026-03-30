@@ -1,9 +1,10 @@
 import logo from '../../../assets/logo.png';
 import NavLinks from '../../../utilities/constants/links.js';
+import ResHeader from '../../ui/ResHeader/ResHeader.jsx';
 import { Menu, ShoppingCart } from 'lucide-react';
 
 const Header = () => {
-    const {main} = NavLinks;
+    const { main } = NavLinks;
 
     return (
         <>
@@ -36,6 +37,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+            <ResHeader></ResHeader>
         </>
     );
 };

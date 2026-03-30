@@ -2,8 +2,10 @@ import Header from "../Header/Header.jsx";
 
 const Layout = () => {
     return (
-        <>
-            <Header></Header>
+        <>  
+            <div className="w-full min-h-screen relative overflow-hidden">
+                <Header></Header>
+            </div>
         </>
     );
 };
