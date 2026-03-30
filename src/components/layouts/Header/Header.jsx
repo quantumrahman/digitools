@@ -1,10 +1,17 @@
+import { useState } from 'react';
 import logo from '../../../assets/logo.png';
 import NavLinks from '../../../utilities/constants/links.js';
 import ResHeader from '../../ui/ResHeader/ResHeader.jsx';
 import { Menu, ShoppingCart } from 'lucide-react';
 
 const Header = () => {
+    const [toggle, setToggle] = useState(false);
+
     const { main } = NavLinks;
+
+    const handleToggle = () => {
+        setToggle(!toggle);
+    };
 
     return (
         <>
@@ -30,14 +37,14 @@ const Header = () => {
                                 <button className='manrope text-base font-semibold text-[#101727] cursor-pointer transition duration-200 delay-150 hover:underline'>Login</button>
                                 <button className='py-3 px-4 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] manrope text-base font-semibold text-white cursor-pointer'>Get Started</button>
                             </div>
-                            <button className='cursor-pointer lg:hidden'>
+                            <button onClick={handleToggle} className='cursor-pointer lg:hidden'>
                                 <Menu color="#101727"></Menu>
                             </button>
                         </div>
                     </div>
                 </div>
             </header>
-            <ResHeader></ResHeader>
+            <ResHeader toggle={toggle} handleToggle={handleToggle}></ResHeader>
         </>
     );
 };

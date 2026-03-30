@@ -1,14 +1,14 @@
 import navLinks from '../../../utilities/constants/links.js';
 import { ShoppingCart, X } from 'lucide-react';
 
-const ResHeader = () => {
+const ResHeader = ({ toggle, handleToggle }) => {
     const { main } = navLinks;
 
     return (
         <>
-            <div className={`absolute w-full max-w-100 min-h-screen bg-white/50 backdrop-blur-md top-0 right-0 z-20 transform transition-transform duration-300 p-6.5`}>
+            <div className={`absolute w-full max-w-100 min-h-screen bg-white/50 backdrop-blur-md top-0 right-0 z-20 transform transition-transform duration-300 p-6.5 ${toggle ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className='flex items-center justify-between'>
-                    <button className='cursor-pointer'>
+                    <button onClick={handleToggle} className='cursor-pointer'>
                         <X color="#101727"></X>
                     </button>
                     <div className='w-5 h-5 flex items-center justify-center relative'>
