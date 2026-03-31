@@ -1,3 +1,5 @@
+import ProductCard from "../ProductCard/ProductCard.jsx";
+
 const PremiumSection = () => {
     return (
         <>
@@ -13,8 +15,16 @@ const PremiumSection = () => {
                             <button className='w-30 manrope text-base font-bold text-[#25065D] px-4 py-3.5 rounded-full cursor-pointer'>Cart(0)</button>
                         </div>
                     </div>
-                    <div className='w-full mt-10'>
-
+                    <div className='w-full mt-10 grid grid-cols-3 gap-7.5'>
+                        <ProductCard></ProductCard>
+                        <ProductCard></ProductCard>
+                        <ProductCard></ProductCard>
+                        <ProductCard></ProductCard>
+                        <ProductCard></ProductCard>
+                        <ProductCard></ProductCard>
+                        <ProductCard></ProductCard>
+                        <ProductCard></ProductCard>
+                        <ProductCard></ProductCard>
                     </div>
                 </div>
             </div>
