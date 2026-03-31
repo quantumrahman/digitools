@@ -1,4 +1,5 @@
 import HomeSection from '../../ui/HomeSection/HomeSection.jsx';
+import PremiumSection from '../../ui/PremiumSection/PremiumSection.jsx';
 import StatsSection from '../../ui/StatsSection/StatsSection.jsx';
 
 const Main = () => {
@@ -6,6 +7,7 @@ const Main = () => {
         <>
             <HomeSection></HomeSection>
             <StatsSection></StatsSection>
+            <PremiumSection></PremiumSection>
         </>
     );
 };
