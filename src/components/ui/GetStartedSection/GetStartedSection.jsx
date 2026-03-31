@@ -1,3 +1,5 @@
+import StepsCard from "../StepsCard/StepsCard.jsx";
+
 const GetStartedSection = () => {
     return (
         <>
@@ -8,7 +10,9 @@ const GetStartedSection = () => {
                         <p className='manrope text-base font-normal text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
                     </div>
                     <div className='w-full mt-10 grid grid-cols-3 gap-7.5'>
-                        
+                        <StepsCard></StepsCard>
+                        <StepsCard></StepsCard>
+                        <StepsCard></StepsCard>
                     </div>
                 </div>
             </div>
