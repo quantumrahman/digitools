@@ -17,7 +17,7 @@ const Header = () => {
         <>
             <header>
                 <div className='w-full border-b border-[#F2F2F2]'>
-                    <div className='w-full max-w-400 mx-auto px-5'>
+                    <div className='w-full max-w-300 mx-auto px-4 sm:px-6 lg:px-8'>
                         <div className='flex items-center justify-between py-4'>
                             <div className='w-32.5 sm:w-37.5 md:w-45'>
                                 <img src={logo} alt="logo" />
