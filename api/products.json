@@ -1,0 +1,138 @@
+[
+  {
+    "id": "ai_001",
+    "name": "Grok 4",
+    "description": "xAI's most powerful model with superior reasoning, real-time knowledge, native tool use, and strong coding capabilities. Known for being helpful, truthful, and less censored.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Real-time web & X integration",
+      "Advanced coding & agentic tools",
+      "High benchmark performance",
+      "Multimodal support",
+      "Grok 4 Heavy variant available"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": "ai_002",
+    "name": "Claude Opus 4.6",
+    "description": "Anthropic's flagship model excelling in deep reasoning, writing, and complex task automation. Preferred by many for high-quality, safe, and thoughtful outputs.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "1M+ context window",
+      "Superior writing & analysis",
+      "Excellent at coding",
+      "Strong safety & alignment",
+      "Agentic capabilities"
+    ],
+    "icon": "🧠"
+  },
+  {
+    "id": "ai_003",
+    "name": "Gemini 3.1 Pro",
+    "description": "Google DeepMind's advanced multimodal model with excellent reasoning, speed, and value. Strong in science, long-context processing, and creative tasks.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Multimodal (text, image, video)",
+      "1M context window",
+      "Fast & cost-effective",
+      "Strong scientific reasoning",
+      "Deep integration with Google tools"
+    ],
+    "icon": "🌟"
+  },
+  {
+    "id": "ai_004",
+    "name": "GPT-5.4",
+    "description": "OpenAI's latest flagship model. Excellent all-rounder with broad ecosystem support, strong agentic abilities, and seamless tool use.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Best-in-class ecosystem",
+      "Advanced agentic workflows",
+      "Multimodal capabilities",
+      "Reliable for production use",
+      "Voice & desktop integration"
+    ],
+    "icon": "🤖"
+  },
+  {
+    "id": "ai_005",
+    "name": "Meta AI",
+    "description": "Meta's powerful AI assistant powered by the latest Llama models. Available across Instagram, WhatsApp, Facebook, and Ray-Ban Meta glasses with strong multimodal capabilities.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Free to use",
+      "Multimodal (text + image)",
+      "Integrated with Meta apps",
+      "Real-time image analysis",
+      "Strong creative capabilities"
+    ],
+    "icon": "🤖"
+  },
+  {
+    "id": "ai_006",
+    "name": "DeepSeek V3.2",
+    "description": "Highly efficient and cost-effective open model from China, competitive with top closed models especially in coding and math.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Excellent price-performance",
+      "Strong in coding & math",
+      "Local deployment friendly",
+      "High efficiency",
+      "Rapidly improving"
+    ],
+    "icon": "🐋"
+  },
+  {
+    "id": "ai_007",
+    "name": "Claude Sonnet 4.6",
+    "description": "The faster and more accessible version of Claude 4 family. Great balance of speed, quality, and cost for everyday professional use.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Fast response time",
+      "1M context window",
+      "Outstanding instruction following",
+      "Great for development",
+      "Affordable high quality"
+    ],
+    "icon": "⚡"
+  },
+  {
+    "id": "ai_008",
+    "name": "Qwen3-Max",
+    "description": "Alibaba's strong contender, especially good for multilingual tasks and closing the gap with Western frontier models.",
+    "price": 8.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Excellent multilingual support",
+      "Strong overall performance",
+      "Good for self-hosting",
+      "Cost-effective API",
+      "Rapid development"
+    ],
+    "icon": "🇨🇳"
+  }
+]
